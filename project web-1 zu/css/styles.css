@@ -1,0 +1,201 @@
+.navbar {
+  
+  background-color: #2C4268;
+  /*position: fixed;*/
+  top: 0;
+  width: 100%;
+  opacity: 1;
+
+}
+h1{color: #b1caf5;
+	font-size: 4em;
+	text-shadow: 3px 3px 8px  #e6d08d;}
+.navbar-brand{font-size 1.8em;
+			 font-weight: bold;}
+#im1 , #im2 , #im3 {border: 2px solid #732e3f;
+	border-radius: 25px;
+	width: 100%;
+	height: 500px;
+	}	
+#im1:hover ,#im2:hover ,#im3:hover{box-shadow: 0px 5px 3px gray;
+		opacity: .8;	}
+
+
+
+.collapse ul a {color: white;
+				text-decoration: none;
+				font-size: 1.2em;
+				line-height: 0.8;}	
+
+.active{background-color: #8ea8c3; }
+
+.dropdown-menu{background-color: #5c677d;}				
+body
+{
+	background-color: #732e3f;
+	
+}
+
+
+}
+h1{color: #9fbaea;}
+ div.inside{position: relative;
+ 			text-align: center;}
+
+
+#MainPage span{background-color: #2C4268;
+			opacity: .9;
+			color: white;
+			font-size: 2em;
+			font-weight: bolder;
+			position: absolute;
+			bottom: 0;
+			text-align: center;
+			width: 50%;
+			right: 25%;
+			left: 25%;}
+.row >div{margin-bottom: 15px;}
+
+
+
+footer{background-color: #634e57a8;
+		margin-top: 50px;
+		padding-top: 10px;
+		border: 1px solid black;
+		opacity: 6;
+	}
+#contact div{text-align: center;
+			line-height: 1.5;
+			font-size: 1.2em;
+			}
+#contact div a{color: #29296b;
+				font-style: italic;
+				text-decoration: underline;}
+#contact div span{font-weight: bold;
+				}			
+
+.copy{color: white;}
+
+.imclass img{border: 2px solid #732e3f;
+	border-radius: 25px;
+	width: 100%;
+	height: 300px;
+	}	
+  p.parclass{
+  	text-align: right;
+  	padding-top: 50px;
+	
+	color: white;
+	width: 98%;
+	font-size: 1.5em;
+
+	}
+	#ActionPage div p span{	font-weight: bold;
+							
+							color: #577ea9;
+							font-size: 1.4em;
+					
+							}
+
+div.col-sm-9{ border: 2px dashed #bbb978;
+			border-radius: 25px;
+			
+			}	
+.row{
+	margin-right: 10px;
+}
+.arabic{
+	position: relative;
+	width: 100%;
+	font-size: 2.2em;
+	font-style: italic;
+	color: #e6d08d;
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 40px !important;
+}
+
+#lis{background-color: #51658685;
+	width: 30%;
+	position: relative;
+	border: 1px solid black;
+	border-radius: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 1.3em;
+	box-shadow: 1px 1px 10px 2px #e6d08d inset;
+	}
+#lis span{	font-style: italic;
+			font-size: 1.2em;
+			text-decoration: underline;}
+#lis a{color: #e6d08d;
+		font-size: .8em;
+		font-style: italic;}
+form .ffstyle{background-color: #c7bb97c2;}
+table{color: #efece4ad;
+		font-size: 1.4em;
+		border:4px solid #b49982;
+		width: 100%;
+
+		}
+form{margin: 0;
+	padding:0;}
+.bbl{margin-left: 25%;
+	background-color: #c7bb97c2;
+	border-radius: 10px;}
+.bbr{margin-right: 25%;
+	background-color: #c7bb97c2;
+	border-radius: 10px;}
+
+.cont-form{	width: 75%;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			margin-right: auto;
+			margin-left: auto;}
+.row{padding: 0;
+	margin: 0;}
+.cont-grad{position: relative;
+			width: 60%;
+			height: 100px;
+			text-align: center;
+			margin-right: auto;
+			margin-left: auto;
+			
+			}
+.grad{
+		border: 1px solid white;
+		border-radius: 25px;
+		background: -webkit-radial-gradient(center, #fff094, #2c4267 , #2c4267);
+         background: -moz-radial-gradient(center, #fff094, #2c4267 , #2c4267);
+         background: radial-gradient(center, #fff094, #2c4267 , #2c4267);
+         font-weight: bolder;
+         font-size: 2em;
+         position: relative;
+         -webkit-animation: movingimage linear 3s 0s infinite alternate;
+         -moz-animation: movingimage linear 3s 0s infinite alternate;
+         animation: movingimage linear 3s 0s infinite alternate;
+
+     }
+ @-webkit-keyframes movingimage 
+         {
+            0%   {opacity: 1; left: 0; top:0;}
+            50%  {opacity: .5; left: 0; top:30px;} 	
+            100% {opacity: 1; left: 0; top: 60px;}
+         }
+         @-moz-keyframes movingimage 
+         {
+          0%   {opacity: 1; left: 0; top:0;}
+            50%  {opacity: .5; left: 0; top:30px;} 	
+            100% {opacity: 1; left: 0; top: 60px;}
+         }
+         @keyframes movingimage
+         {  0%   {opacity: 1; left: 0; top:0;}
+            50%  {opacity: .5; left: 0; top:30px;} 	
+            100% {opacity: 1; left: 0; top: 60px;}
+         }
+
+.message{font-size: 2em;
+		color: #bbb978 !important;
+		text-shadow: 3px 3px 5px gray;}
+.sss{font-size: .7em;}
+

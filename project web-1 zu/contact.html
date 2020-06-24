@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact</title>
+    <style type="text/css">
+      div.cont-grad{
+             background-image: url(images/log1.jpg), url(images/mback3.jpg);
+             background-size: 60px,400px;
+            background-position: bottom right, 100% center;
+            background-repeat: no-repeat, repeat;
+            border-radius: 25px; 
+            
+      }
+      button{background-color: #c7bb97c2;
+              border-radius: 10px;
+              width: 150px;
+              margin-left: 45%;
+              margin-top: 10px;}
+    </style>
+    <script type="text/javascript">
+      function myFunction() {
+
+
+        
+      var x=  window.prompt("Do you need to add your name?\n  press: (Y/N)...");
+      var name;
+      switch(x){
+        case 'Y':
+        case 'y':name=window.prompt("Enter Your Name: ");
+                break;
+        case 'N':window.alert("Thanks..");
+      }
+      if(name){
+      document.getElementById("demo").innerHTML = "Thanks "+name+" for your time!";}
+      else{
+       /* break;*/
+      }
+        
+
+
+
+      }
+    </script>
+
+
+  </head>
+  <body>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Best Movies</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Movies & series
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="action.html">Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item " href="drama.html">Drama</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="horror.html">Horror</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+     <h1 class="text-center mt-3" id="hed"></h1>
+    
+     <section id="ActionPage" class="container-fluid">
+       <div class="row">
+        <div class="col-sm-12">
+          <div class="cont-form">
+            <form>
+              <table border='1'>
+                <tr>
+                  <th class="text-center font-italic">Your information</th>
+                  <th class="text-center font-italic">Your Message</th>
+                </tr>
+
+                <tr>
+                  <td><label>Name: <input class="ffstyle" type="text"> <del class="text-black-50 sss">(Enter Your Name)</del> </label></td>
+                  <td rowspan="2"> <label>Write your message here:</label><br><textarea class="ffstyle" cols="40" rows="5">message....</textarea></td>
+                </tr>
+
+                <tr>
+                  <td><label>E-mail: <input class="ffstyle" type="email"> <del class="text-black-50 sss">(Enter Your E-mail)</del>  </label></td>
+                </tr> 
+
+                <tr>
+                  <td colspan="2" ><input class="float-left bbl" type="submit" value="Send"><input class="float-right bbr" type="reset" value="Clear"></td>
+                </tr> 
+              </table>
+            </form>
+          </div> <!-- form container -->
+        </div> <!-- for table and form -->
+        <div class="col-sm-12">
+          
+          <div class="cont-grad">
+            <div id="demo" class="grad">
+              Thanks for your time!
+            </div>
+            
+          </div>
+           <button type="button" onclick="myFunction()">Add your Name: </button>
+
+
+        </div>
+        
+       
+
+       </div> <!-- for row  -->
+     </section>
+
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="contact" class="col-sm-12">
+          <div>
+            <span>Contact us:</span><br>
+           <span> Facebook:</span><a href="https://www.facebook.com/mohammad.sadaldeen"> Mohammad Saad Aldeen</a><br>
+           <span> E-mail:</span> <a href="mailto:mhd.sad22@gmail.com"> mhd.sad22@gmail.com</a><br>
+            <a href="contact.html" class="message"> Send Messages on website... </a>
+         </div>
+        </section>
+      </div>
+      <hr>
+      <div class="text-center copy">&copy; Copyright Mohammad Saad Eddin website</div>
+    </div>
+  </footer>
+
+
+
+      
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="js/jquery-3.4.1.slim.min.js"></script>
+      <script src="js/bootstrap.min.js"></script> 
+      <!-- <script src="script2.js"></script> -->
+  </body>
+</html>
